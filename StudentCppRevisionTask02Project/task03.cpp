@@ -26,12 +26,12 @@
 
 int task03(int number) {
 
-	int ten = 0;
+	int a= 0;
 
-	ten = (number / 10) % 10;
-	if (ten < 0) {
-		ten = ten * (-1);
+	a = (number / 10) % 10;
+	if (a < 0) {
+		a = a * (-1);
 	}
 
-	return ten;
+	return a;
 }
